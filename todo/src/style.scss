@@ -1,0 +1,82 @@
+.navbar{
+    background: rgb(6, 0, 95) !important;
+    box-shadow: 0px 0px 5px 2px rgb(50, 50, 50);
+    .navbar-nav{
+        li{
+            font-size: 20px;
+            font-weight: 500;
+        }
+    }
+}
+
+body{
+    background: rgb(240, 240, 240);
+}
+
+.main{
+    margin: 10px;
+    .card{
+        height: 100vh;
+        .card-body{
+            padding: 10px !important;
+
+            .todo-list{
+                margin-top: 55px;
+
+                li{
+                    border: none;
+                    border-radius: 0px;
+                    margin-bottom: 5px;
+                }
+
+                .done{
+                    background: rgb(240, 240, 240);
+                    box-shadow: inset 0px 0px 10px 2px rgb(158, 158, 158) ;
+                    
+                    span{
+                        color: rgb(100, 100, 100);
+                    }
+
+                    .button-remove{
+                        border: none;
+                        border-radius: 50%;
+                        font-weight: 500;
+
+                        padding: 0px;
+                        margin: 0px;
+
+                        height: 25px;
+                        width: 25px;
+
+                        background: rgba(255, 0, 0, 0.445) !important
+                    }
+                }
+                .todo{
+                    background: rgb(255, 255, 255);
+                    
+                    span{
+                        color: rgb(50, 50, 50);
+                    }
+
+                    .button-remove{
+                        border: none;
+                        border-radius: 50%;
+                        font-weight: 500;
+
+                        padding: 0px;
+                        margin: 0px;
+
+                        height: 25px;
+                        width: 25px;
+
+                        // background: rgba(255, 0, 0, 0.445) !important
+                    }
+                }
+            }
+        }
+    }
+
+    .navbar{
+        height: 55px;
+    }
+}
