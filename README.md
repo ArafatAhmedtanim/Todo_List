@@ -1,3 +1,3 @@
 # Todo_List
--Todo: Backend in python Django
--todo: Frontend in React TypeScript
+* __Todo__: Backend in python Django
+* __todo__: Frontend in React TypeScript
