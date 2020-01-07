@@ -83,7 +83,6 @@ class Todos extends Component<Props>{
 
 
             <nav className="navbar fixed-bottom navbar-light bg-light">
-                {/* <Dictaphone handleDes={this.handleDes}/> */}
                 <div className="input-group mb-3">
                     <input
                         type="text"
@@ -96,6 +95,7 @@ class Todos extends Component<Props>{
 
                         onChange={(e) => this.setState({ des: e.target.value })}
                     />
+                    <Dictaphone handleDes={this.handleDes} />
                     {this.state.des ?
                         <div className="input-group-append">
                             <button
