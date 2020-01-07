@@ -1,38 +1,46 @@
+body{
+    background: rgb(0, 0, 0);
+}
+
+
 .navbar{
-    background: rgb(6, 0, 95) !important;
-    box-shadow: 0px 0px 5px 1px rgb(50, 50, 50);
+    background: rgb(0, 0, 0) !important;
+    padding: 40px;
     .navbar-nav{
         li{
             font-size: 20px;
-            font-weight: 500;
+            font-weight: 600;
         }
     }
 }
 
-body{
-    background: rgb(240, 240, 240);
-}
 
 .rvi-container{
+    border: 1px solid #6c757d;
     .rvi-microphone{
         padding: 5px !important;
         top: 0px !important;
         left: 0px !important;
 
-        height: 37px !important;
+        height: 36px !important;
         width: 37px !important;
 
-        svg{ fill: white !important}
+        svg{ fill: #34a853 !important}
     }
 }
 
 
 .main{
-    margin: 10px;
+    margin: 0px !important;
+    padding: 0px !important;
+    
+    margin: 75px 40px !important;
     .card{
         height: 100vh;
+        background: black;
         .card-body{
-            padding: 10px !important;
+            margin: 0px !important;
+            padding: 0px !important;
 
             .todo-list{
                 margin-top: 50px;
@@ -44,11 +52,12 @@ body{
                 }
 
                 .done{
-                    background: rgb(240, 240, 240);
-                    box-shadow: inset 0px 0px 5px 1px rgb(150, 150, 150) ;
+                    background: rgba(240, 240, 240, 0.15);
+                    // box-shadow: inset 0px 0px 5px 1px rgb(150, 150, 150) ;
                     
                     span{
                         color: rgb(100, 100, 100);
+                        font-weight: 600;
                     }
 
                     .button-remove{
@@ -66,10 +75,11 @@ body{
                     }
                 }
                 .todo{
-                    background: rgb(255, 255, 255);
+                    background: rgb(207, 207, 207);
                     
                     span{
                         color: rgb(50, 50, 50);
+                        font-weight: 600;
                     }
 
                     .button-remove{
@@ -90,5 +100,6 @@ body{
 
     .navbar{
         height: 55px;
+        padding: 5px 40px;
     }
 }

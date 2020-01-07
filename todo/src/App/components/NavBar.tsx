@@ -14,7 +14,7 @@ interface Props {
     links: NavLinkType[]
 }
 const NavBar = (props: Props) => (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <nav className="navbar navbar-expand-lg fixed-top">
         <ul className="navbar-nav mr-auto">
             {props.links.map(({ href, text }: { href: string, text: string }, i: number) => (
                 <NavLink key={i} href={href} text={text} />

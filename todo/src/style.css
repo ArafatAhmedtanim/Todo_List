@@ -1,40 +1,47 @@
+body {
+  background: black;
+}
+
 .navbar {
-  background: #06005f !important;
-  -webkit-box-shadow: 0px 0px 5px 1px #323232;
-          box-shadow: 0px 0px 5px 1px #323232;
+  background: black !important;
+  padding: 40px;
 }
 
 .navbar .navbar-nav li {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
-body {
-  background: #f0f0f0;
+.rvi-container {
+  border: 1px solid #6c757d;
 }
 
 .rvi-container .rvi-microphone {
   padding: 5px !important;
   top: 0px !important;
   left: 0px !important;
-  height: 37px !important;
+  height: 36px !important;
   width: 37px !important;
 }
 
 .rvi-container .rvi-microphone svg {
-  fill: white !important;
+  fill: #34a853 !important;
 }
 
 .main {
-  margin: 10px;
+  margin: 0px !important;
+  padding: 0px !important;
+  margin: 75px 40px !important;
 }
 
 .main .card {
   height: 100vh;
+  background: black;
 }
 
 .main .card .card-body {
-  padding: 10px !important;
+  margin: 0px !important;
+  padding: 0px !important;
 }
 
 .main .card .card-body .todo-list {
@@ -48,13 +55,12 @@ body {
 }
 
 .main .card .card-body .todo-list .done {
-  background: #f0f0f0;
-  -webkit-box-shadow: inset 0px 0px 5px 1px #969696;
-          box-shadow: inset 0px 0px 5px 1px #969696;
+  background: rgba(240, 240, 240, 0.15);
 }
 
 .main .card .card-body .todo-list .done span {
   color: #646464;
+  font-weight: 600;
 }
 
 .main .card .card-body .todo-list .done .button-remove {
@@ -69,11 +75,12 @@ body {
 }
 
 .main .card .card-body .todo-list .todo {
-  background: white;
+  background: #cfcfcf;
 }
 
 .main .card .card-body .todo-list .todo span {
   color: #323232;
+  font-weight: 600;
 }
 
 .main .card .card-body .todo-list .todo .button-remove {
@@ -88,5 +95,6 @@ body {
 
 .main .navbar {
   height: 55px;
+  padding: 5px 40px;
 }
 /*# sourceMappingURL=style.css.map */
